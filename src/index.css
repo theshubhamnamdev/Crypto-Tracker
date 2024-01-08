@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@layer components {
+    .wrapper-container {
+        @apply max-w-5xl mx-0 px-2
+    }
+}
+
+#heroSection {
+    background-image: url(https://img.freepik.com/free-photo/glowing-blue-pulse-trace-analyzing-healthcare-data-generated-by-ai_188544-31056.jpg?t=st=1701295321~exp=1701298921~hmac=f8285cdbf4319d073469f7456aa5efe0b44885eb906d1103251ea675259573e7&w=826);
+    /* background-image: url(https://images.pexels.com/photos/7267598/pexels-photo-7267598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.active{
+    color: brown;
+}
